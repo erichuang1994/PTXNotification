@@ -69,11 +69,11 @@
     "www.bbrmyy.com",
     "www.jsdytz.com"
   ];
-
   for(key in blockList){
     if(window.location.href.indexOf(blockList[key])!=-1){
       alert("您正在查看的医院页面疑似莆田系");
       break;
     }
   }
+
 })();
